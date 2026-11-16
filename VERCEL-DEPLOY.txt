@@ -1,0 +1,19 @@
+TANDEM — VERCEL DEPLOYMENT (NO LOCAL TERMINAL REQUIRED)
+
+1. Extract the ZIP you downloaded.
+2. Open the extracted tandem-inbox folder.
+3. Upload the CONTENTS of that folder to the ROOT of the GitHub repository connected to Vercel.
+   The repository root must contain package.json, vercel.json, index.html, src/, api/, server/, and shared/.
+   Do not put these files one level deeper inside another tandem-inbox folder.
+4. Commit the upload in GitHub. Vercel will start a deployment automatically.
+5. In Vercel Project Settings > Build and Development Settings, set:
+   - Framework Preset: Vite
+   - Root Directory: ./ (the directory containing package.json and vercel.json)
+   Leave the build and install commands to the included vercel.json.
+6. No environment variables are needed for the demo workspace. Do not configure Gmail, MongoDB, or Gemini until the base deployment works.
+7. When deployment is Ready, open your site's URL. Click “Explore the demo workspace”.
+8. Verify https://YOUR-VERCEL-DOMAIN/api/health returns JSON with ok: true.
+
+The project uses Vite/React for the interface and one Vercel Node function for the demo API. Vercel installs dependencies and runs the build remotely; you do not need to run npm commands locally.
+
+If the build fails, open the deployment > Build Logs and share the FIRST error (not just the final failure line).
