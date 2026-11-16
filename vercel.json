@@ -7,9 +7,7 @@
   "functions": {
     "api/index.js": {
       "maxDuration": 30,
-      "includeFiles": [
-        "shared/demo-conversations.json"
-      ]
+      "includeFiles": "shared/demo-conversations.json"
     }
   },
   "rewrites": [
