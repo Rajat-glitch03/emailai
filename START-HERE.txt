@@ -1,0 +1,19 @@
+TANDEM — START HERE
+
+1. Open https://vercel.com/drop in your browser.
+2. Upload tandem-vercel-static.zip directly (or drag the extracted folder).
+3. Choose your Vercel team, enter a project name, and deploy.
+4. Vercel serves index.html as a static website. No npm, Node install, CLI, build command, or environment variables are required.
+
+If using an existing GitHub-connected project, upload these files to the ROOT of a clean repository using GitHub's web interface. In Vercel project settings choose Framework Preset = Other, leave Build Command blank, and use Output Directory = . . Remove old Vite/React package files from that repository so Vercel does not try to build the previous app.
+
+Open the deployed page and try:
+- Assistant view / Client view toggle
+- Open a conversation and change responsibility
+- Search, filters, star, archive, mark handled
+- Prepare a reply and save a local draft
+- Client review, delegate to Alex, or mark handled
+- Ask your inbox
+- Connect email to see the simulated Gmail and Outlook flow
+
+Honesty note: all messages are sample data. Gmail and Outlook connection, AI classification, summaries, and replies are prototype simulations. No mailbox is accessed and no email is sent. Demo state is saved in the current browser only.
