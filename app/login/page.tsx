@@ -5,6 +5,7 @@ import { useState, type FormEvent } from "react";
 import {
   ArrowLeft,
   ArrowRight,
+  CheckCircle2,
   Eye,
   EyeOff,
   LockKeyhole,
